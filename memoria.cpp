@@ -44,7 +44,7 @@ public:
 
 int main(int argc, char const *argv[]){
 
-int a =5;
+int i =5;
 bool b =true;
 float f = 0.1;
 double d = 0.1;
@@ -61,12 +61,12 @@ cout<<"Tamaño Enano:"<<sizeof(Enano)<<" bytes."<<endl;
 
 cout<<endl;
 cout<<"Memoria Estatica C/C++:"<<endl;
-cout<<"Tamaño int:"<<sizeof(int)<<" bytes."<<endl;
-cout<<"Tamaño bool:"<<sizeof(int)<<" bytes."<<endl;
-cout<<"Tamaño float:"<<sizeof(int)<<" bytes."<<endl;
-cout<<"Tamaño double:"<<sizeof(int)<<" bytes."<<endl;
-cout<<"Tamaño char:"<<sizeof(int)<<static_cast<void*>" bytes."<<endl;
-cout<<"Tamaño Enano:"<<sizeof(int)<<" bytes."<<endl;
+cout<<"Direccion de int: "<<&i<<endl;
+cout<<"Direccion de bool: "<<&b<<endl;
+cout<<"Direccion de float: "<<&f<<endl;
+cout<<"Direccion de double: "<<&d<<endl;
+cout<<"Direccion de char: "<<static_cast<void*>(&c)<<endl;
+cout<<"Direccion de Enano: "<<&e<<endl;
 
 
 cout<<endl;
